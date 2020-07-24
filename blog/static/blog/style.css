@@ -1,0 +1,12 @@
+.tamim{
+    background-image: url(../blog/images/t1.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1700px 1000px;
+}
+.panel{
+
+    background-color: darkgoldenrod;
+}
+ 
