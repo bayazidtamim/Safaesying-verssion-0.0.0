@@ -1,12 +1,40 @@
+
+h1 {
+    color: olivedrab;
+}
+
+h2 {
+    color: #FF0000;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+.validation-message {
+    font-style: normal;
+    font-size: 10px;
+    color: #FF1C19;
+}
+
+a {
+    transition: all .2s;
+}
+
+a:hover, a:focus, a:active {
+    color: rgb(94, 3, 94);
+    text-decoration: none;
+}
+
+.pagination {
+    display: block;
+    text-align: center;
+}
+
 .tamim{
-    background-image: url(../blog/images/t1.jpg);
+    background-image: url('../blog/images/t1.jpg');
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: 1700px 1000px;
 }
-.panel{
-
-    background-color: darkgoldenrod;
-}
- 
