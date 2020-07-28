@@ -18,7 +18,7 @@ from django.contrib.auth import views as auth_views
 from django.urls import path, include
 
 from blog.views.register import RegisterView
-from blog.views.about import about
+from blog.views.about import about,contact
 
 urlpatterns = [
     path('', include('blog.urls')),
@@ -28,4 +28,6 @@ urlpatterns = [
     path('register/', RegisterView.as_view(), name='register'),
     path('', include('django.contrib.auth.urls')),
     path('/about',about, name='about'), 
+    path('/contact',contact, name='contact'), 
+
 ]

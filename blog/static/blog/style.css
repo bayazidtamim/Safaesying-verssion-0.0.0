@@ -1,10 +1,13 @@
 
 h1 {
-    color: olivedrab;
+    color: blue;
+    font-size: 80px;
+    
 }
 
 h2 {
-    color: #FF0000;
+    color: #00ff2a;
+     font-size: 50px;
 }
 
 footer {
@@ -19,6 +22,7 @@ footer {
 
 a {
     transition: all .2s;
+     
 }
 
 a:hover, a:focus, a:active {
@@ -32,9 +36,22 @@ a:hover, a:focus, a:active {
 }
 
 .tamim{
-    background-image: url('../blog/images/t1.jpg');
+    background-image: url("../blog/images/tanvir1.jpg");
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: 1700px 1000px;
 }
+.panel{
+    background-color: goldenrod;
+}
+.jumbotron{
+    background-color: royalblue;
+}
+text-center w-responsive mx-auto mb-5{
+    font-size: 30px;
+}
+.safe{
+    text-decoration-color: green;
+}
+ 
